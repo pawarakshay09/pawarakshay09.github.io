@@ -8,6 +8,6 @@ Open `index.html` in a modern browser. The table number defaults to 1 and can be
 
 Use the category chips or search to explore the menu. Click any dish photo or the hero image to open the animated full-size image viewer; close it with the close button, Escape, or by clicking the dark background.
 
-The dietary controls filter vegetarian and non-vegetarian dishes. Social buttons are in the footer; replace the generic Instagram/Facebook links in `index.html` with the restaurant's profiles. Set `OWNER_WHATSAPP_NUMBER` in `js/feedback-whatsapp.js` to the owner's international number (digits only) to open WhatsApp with guest feedback prefilled. Guests must tap Send in WhatsApp; the page does not send messages automatically.
+The dietary controls filter vegetarian and non-vegetarian dishes, with **All dishes** selected by default. Social buttons are in the footer; replace the generic Instagram/Facebook links in `index.html` with the restaurant's profiles. Set `OWNER_WHATSAPP_NUMBER` in `js/site.js` to the owner's international number (digits only) to open WhatsApp with guest feedback prefilled. Guests must tap Send in WhatsApp; the page does not send messages automatically.
 
 Menu photographs are local in `assets/menu-foods.png`. Bootstrap is not needed. Google Fonts are loaded from a CDN; the site uses system fallbacks if they are unavailable.
